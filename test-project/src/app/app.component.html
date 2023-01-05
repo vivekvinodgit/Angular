@@ -1,0 +1,9 @@
+<h1 style="text-align: center;">Two way Binding</h1>
+
+<div style="text-align: center;">
+<input type="number" [(ngModel)]="count" /> <button (click)="check()">Check</button><button (click)="clear()">Clear</button>
+</div>
+
+<div style="text-align: center;">
+  <h1 [hidden]="is_hidden">{{count}} : {{str}}</h1>
+</div>
